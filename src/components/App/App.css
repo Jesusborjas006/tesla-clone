@@ -1,0 +1,32 @@
+/* Main */
+.main {
+  height: 200vh;
+  border: 2px solid blue;
+}
+
+/* Navbar */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid red;
+  padding: 14px 3vw;
+  position: sticky;
+  top: 0;
+}
+
+.items-container {
+  display: flex;
+}
+
+.items-container p {
+  margin: 0 10px;
+}
+
+.extra-container {
+  display: flex;
+}
+
+.extra-container p {
+  margin: 0 10px;
+}
