@@ -1,16 +1,11 @@
 /* Main */
-.main {
-  height: 200vh;
-  border: 2px solid blue;
-}
 
 /* Navbar */
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid red;
-  padding: 14px 3vw;
+  padding: 14px 2.5vw;
   position: sticky;
   top: 0;
   height: 8vh;
@@ -19,7 +14,7 @@
 
 .items-container {
   display: flex;
-  margin-left: 70px;
+  margin-left: 100px;
 }
 
 .items-container p {
@@ -44,4 +39,40 @@
 .background-2 {
   height: 100vh;
   background: url("../../images/model-y.jpg") no-repeat center center/cover;
+}
+
+/* Model S */
+.background-3 {
+  height: 100vh;
+  background: url("../../images/model-s.jpg") no-repeat center center/cover;
+}
+
+/* Model X */
+.background-4 {
+  height: 100vh;
+  background: url("../../images/model-x.jpg") no-repeat center center/cover;
+}
+
+/* Solar Panels */
+.background-5 {
+  height: 100vh;
+  background: url("../../images/solarpanels.jpg") no-repeat center center/cover;
+}
+
+/* Solar Roof */
+.background-6 {
+  height: 100vh;
+  background: url("../../images/roof.jpg") no-repeat center center/cover;
+}
+
+/* Powerwall */
+.background-7 {
+  height: 100vh;
+  background: url("../../images/powerwall.jpg") no-repeat center center/cover;
+}
+
+/* Accessories */
+.background-8 {
+  height: 100vh;
+  background: url("../../images/accessories.jpg") no-repeat center center/cover;
 }
