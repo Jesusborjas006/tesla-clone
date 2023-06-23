@@ -13,14 +13,17 @@
   padding: 14px 3vw;
   position: sticky;
   top: 0;
+  height: 8vh;
+  margin-bottom: -8vh;
 }
 
 .items-container {
   display: flex;
+  margin-left: 70px;
 }
 
 .items-container p {
-  margin: 0 10px;
+  margin: 0 20px;
 }
 
 .extra-container {
@@ -28,5 +31,17 @@
 }
 
 .extra-container p {
-  margin: 0 10px;
+  margin: 0 12px;
+}
+
+/* Model S */
+.background-1 {
+  height: 100vh;
+  background: url("../../images/model-3.jpg") no-repeat center center/cover;
+}
+
+/* Model Y */
+.background-2 {
+  height: 100vh;
+  background: url("../../images/model-y.jpg") no-repeat center center/cover;
 }
