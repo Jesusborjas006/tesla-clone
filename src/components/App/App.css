@@ -29,11 +29,22 @@
   margin: 0 12px;
 }
 
-/* Model S */
+/* Model 3 */
 .background-1 {
   height: 100vh;
   background: url("../../images/model-3.jpg") no-repeat center center/cover;
 }
+
+.model-3-heading-container {
+  /* border: 2px solid black; */
+  text-align: center;
+  position: relative;
+  top: 15vh;
+}
+
+/* .model-heading {
+  margin-top: 15vh;
+} */
 
 /* Model Y */
 .background-2 {
