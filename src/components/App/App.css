@@ -29,22 +29,28 @@
   margin: 0 12px;
 }
 
-/* Model 3 */
-.background-1 {
-  height: 100vh;
-  background: url("../../images/model-3.jpg") no-repeat center center/cover;
-}
-
-.model-3-heading-container {
-  /* border: 2px solid black; */
+/* Background Heading */
+.background-heading-container {
   text-align: center;
   position: relative;
   top: 15vh;
 }
 
-/* .model-heading {
-  margin-top: 15vh;
-} */
+.model-heading {
+  font-size: 2.4rem;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.background-heading-container p {
+  line-height: 1.5;
+}
+
+/* Model 3 */
+.background-1 {
+  height: 100vh;
+  background: url("../../images/model-3.jpg") no-repeat center center/cover;
+}
 
 /* Model Y */
 .background-2 {
